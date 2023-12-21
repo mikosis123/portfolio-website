@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Work />
       <Projects />
       <Resume />
+      <Contact />
     </>
   );
 }
