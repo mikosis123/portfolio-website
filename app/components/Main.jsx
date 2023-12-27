@@ -6,6 +6,7 @@ import {
   FaFacebookF,
   FaLinkedin,
   FaGithub,
+  FaTelegram,
 } from "react-icons/fa";
 
 const Main = () => {
@@ -51,7 +52,7 @@ const Main = () => {
             <a href="https://instagram.com/praneet_084?igshid=OGQ5ZDc2ODk2ZA==">
               <FaGithub size={20} className="cursor-pointer hover:scale-110" />
             </a>
-            <FaFacebookF size={20} className="cursor-pointer hover:scale-110" />
+            <FaTelegram size={20} className="cursor-pointer hover:scale-110" />
             <a href="https://x.com/praneet_K10?t=EqWgLxa43bT1Sx3ntllLVw&s=09">
               <FaTwitter size={20} className="cursor-pointer hover:scale-110" />
             </a>
