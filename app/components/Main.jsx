@@ -14,6 +14,7 @@ const Main = () => {
         className="w-full h-screen object-cover object-left scale-x-[-1]"
         src="https://images.unsplash.com/photo-1501959181532-7d2a3c064642?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1793&q=80"
         alt=""
+        width={1000}
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center">
