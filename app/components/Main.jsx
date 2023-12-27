@@ -41,18 +41,19 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <a href="https://x.com/praneet_K10?t=EqWgLxa43bT1Sx3ntllLVw&s=09">
-              <FaTwitter size={20} className="cursor-pointer hover:scale-110" />
-            </a>
-            <a href="https://instagram.com/praneet_084?igshid=OGQ5ZDc2ODk2ZA==">
-              <FaGithub size={20} className="cursor-pointer hover:scale-110" />
-            </a>
-            <FaFacebookF size={20} className="cursor-pointer hover:scale-110" />
             <a href="https://www.linkedin.com/in/mikiyas-sisay/">
               <FaLinkedin
                 size={20}
                 className="cursor-pointer hover:scale-110"
               />
+            </a>
+
+            <a href="https://instagram.com/praneet_084?igshid=OGQ5ZDc2ODk2ZA==">
+              <FaGithub size={20} className="cursor-pointer hover:scale-110" />
+            </a>
+            <FaFacebookF size={20} className="cursor-pointer hover:scale-110" />
+            <a href="https://x.com/praneet_K10?t=EqWgLxa43bT1Sx3ntllLVw&s=09">
+              <FaTwitter size={20} className="cursor-pointer hover:scale-110" />
             </a>
           </div>
         </div>
