@@ -50,7 +50,7 @@ const Main = () => {
               />
             </a>
             <FaFacebookF size={20} className="cursor-pointer hover:scale-110" />
-            <a href="https://www.linkedin.com/in/praneet-kashyap-2854a824b">
+            <a href="https://www.linkedin.com/in/mikiyas-sisay/">
               <FaLinkedin
                 size={20}
                 className="cursor-pointer hover:scale-110"
