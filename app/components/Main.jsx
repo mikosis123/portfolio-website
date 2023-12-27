@@ -26,11 +26,11 @@ const Main = () => {
             Im a
             <TypeAnimation
               sequence={[
-                "Front-End",
+                " Front-End Developer",
                 1500,
-                "Back-end",
+                " Back-end Developer",
                 1500,
-                "Full Stack Developer",
+                " Full Stack Developer",
                 1500,
               ]}
               wrapper="span"
