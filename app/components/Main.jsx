@@ -19,9 +19,9 @@ const Main = () => {
         width={1000}
         height={1000}
       />
-      <div className="w-full h-screen absolute top-0 left-0 bg-white/50 flex flex-row-reverse">
+      <div className="w-full h-screen absolute top-0 left-0 bg-white/50 flex flex-col">
         <Image
-          className="rounded-full h-[300px] w-[300px] max-w-[700px] m-auto"
+          className="rounded-full h-[300px] w-[300px] max-w-[700px] m-auto mt-16"
           src="https://images.unsplash.com/photo-1703535753934-7ab4ca4836c8?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           alt=""
           width={300}
@@ -48,20 +48,26 @@ const Main = () => {
               repeat={Infinity}
             />
           </h2>
+
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
             <a href="https://www.linkedin.com/in/mikiyas-sisay/">
               <FaLinkedin
-                size={20}
+                size={30}
                 className="cursor-pointer hover:scale-110"
               />
             </a>
 
             <a href="https://instagram.com/praneet_084?igshid=OGQ5ZDc2ODk2ZA==">
-              <FaGithub size={20} className="cursor-pointer hover:scale-110" />
+              <FaGithub size={30} className="cursor-pointer hover:scale-110" />
             </a>
-            <FaTelegram size={20} className="cursor-pointer hover:scale-110" />
+            <a href="https://t.me/Mikiyas_sisay">
+              <FaTelegram
+                size={30}
+                className="cursor-pointer hover:scale-110"
+              />
+            </a>
             <a href="https://x.com/praneet_K10?t=EqWgLxa43bT1Sx3ntllLVw&s=09">
-              <FaTwitter size={20} className="cursor-pointer hover:scale-110" />
+              <FaTwitter size={30} className="cursor-pointer hover:scale-110" />
             </a>
           </div>
         </div>
