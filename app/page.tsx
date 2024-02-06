@@ -5,6 +5,7 @@ import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Sidenav />
       <Main />
       <Work />
+      {/* <Skills /> */}
       <Projects />
       <Resume />
       <Contact />
