@@ -3,7 +3,7 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    year: 2010,
+    year: 2023,
     title: "Full Stack || Front End Web Developer (MERN Stack)",
     duration: "2 Years",
     details:
@@ -13,7 +13,10 @@ const data = [
 
 const Work = () => {
   return (
-    <div id="edu" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+    <div
+      id="edu"
+      className="max-w-[1040px] m-auto md:pl-20 p-4 py-16 bg-green-100 slant-bottom"
+    >
       <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-10">
         ABOUT ME
       </h1>
