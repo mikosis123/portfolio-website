@@ -32,7 +32,7 @@ const SkillBar = ({ level }) => (
 );
 
 const Skills = () => (
-  <div className="space-y-4">
+  <div className="max-w-[1040px] m-auto space-y-4 bg-blue-700 p-4 slant-bottom">
     {skills.map((skill, index) => (
       <div key={index} className="flex items-center space-x-2">
         <div>{skill.icon}</div> {/* Display the icon */}
