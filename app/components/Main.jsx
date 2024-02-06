@@ -57,7 +57,7 @@ const Main = () => {
             </a>
           </div>
         </div>
-        <Image className="h-[500px] my-auto mr-4" src={mikipic}></Image>
+        <Image className="h-[500px] my-auto mr-4 imageer" src={mikipic}></Image>
       </div>
     </div>
   );
