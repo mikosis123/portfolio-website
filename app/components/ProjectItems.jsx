@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
+import "./project.css";
 
-const ProjectItems = ({img, title}) => {
-  return (
-    <div>ProjectItems</div>
-  )
-}
+const ProjectItems = ({ img, title }) => {
+  return <div className="card">ProjectItems</div>;
+};
 
-export default ProjectItems
+export default ProjectItems;
