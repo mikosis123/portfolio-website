@@ -6,7 +6,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className=" flex justify-center w-full   bg-sky-400 slant-bottom md:pl-20 p-4 py-16 "
+      className=" flex justify-center w-full   bg-[#97b2f4] slant-bottom md:pl-20 p-4 py-16 "
     >
       <div id="edu" className="m-auto md:pl-20 p-4 py-16  slant-bottom  ">
         <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-10">
