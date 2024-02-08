@@ -2,7 +2,6 @@ import React from "react";
 import "./project.css";
 import Image from "next/image";
 
-
 const ProjectItems = ({ img, title }) => {
   return (
     <div className="card">
