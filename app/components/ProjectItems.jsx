@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import "./project.css";
+import Image from "next/image";
 
-const ProjectItems = ({img, title}) => {
+
+const ProjectItems = ({ img, title }) => {
   return (
-    <div>ProjectItems</div>
-  )
-}
+    <div className="card">
+      <Image src={img}></Image>
+    </div>
+  );
+};
 
-export default ProjectItems
+export default ProjectItems;

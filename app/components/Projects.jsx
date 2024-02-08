@@ -1,5 +1,7 @@
 import React from "react";
 import ProjectItems from "./ProjectItems";
+import netflix from "../assets/netflix.png";
+import apple from "../assets/apple replica image.jpeg";
 
 const Projects = () => {
   return (
@@ -14,10 +16,10 @@ const Projects = () => {
         conventional means of organizing extended segments of prose.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItems />
-        <ProjectItems />
-        <ProjectItems />
-        <ProjectItems />
+        <ProjectItems img={netflix} />
+        <ProjectItems img={apple} />
+        <ProjectItems img={apple} />
+        <ProjectItems img={netflix} />
       </div>
     </div>
   );
