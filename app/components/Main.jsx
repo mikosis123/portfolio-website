@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import { Iconmain } from "../assets/Iconmain";
 import Image from "next/image";
-import mikipic from "../assets/7922058-removebg-preview.png";
+import mikipic from "../assets/main illustration.png";
 import {
   FaInstagram,
   FaTwitter,
@@ -56,6 +56,16 @@ const Main = () => {
               <FaTwitter size={30} className="cursor-pointer hover:scale-110" />
             </a>
           </div>
+          <button class=" bg-[#dcfce7] border-gray-300 border-4 rounded-lg mt-16 hover:bg-gray-400 text-gray-800 font-bold py-4 px-6  inline-flex items-center">
+            <svg
+              class="fill-current w-4 h-4 mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+            >
+              <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
+            </svg>
+            <span>Download Cv</span>
+          </button>
         </div>
         <Image className="h-[500px] my-auto mr-4 imageer" src={mikipic}></Image>
       </div>
