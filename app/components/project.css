@@ -5,8 +5,8 @@
 }
 
 :root {
-  --card-height: 40vh;
-  --card-width: calc(var(--card-height) / 1);
+  --card-height: 350px;
+  --card-width: calc(var(--card-height));
 }
 
 .card {
@@ -69,8 +69,8 @@
   background-image: linear-gradient(
     var(--rotate),
     #5ddcff,
-    #3c67e3 43%,
-    #4e00c2
+    #7691e4 43%,
+    #dcfce7
   );
   opacity: 1;
   transition: opacity 0.5s;
