@@ -5,8 +5,8 @@
 }
 
 :root {
-  --card-height: 65vh;
-  --card-width: calc(var(--card-height) / 1.5);
+  --card-height: 40vh;
+  --card-width: calc(var(--card-height) / 1);
 }
 
 .card {
@@ -45,7 +45,7 @@
     var(--rotate),
     #5ddcff,
     #3c67e3 43%,
-    #4e00c2
+    #2ad697
   );
   position: absolute;
   z-index: -1;
