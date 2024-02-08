@@ -1,5 +1,5 @@
 import React from "react";
-import imageer from "../assets/6572420_3301602-removebg-preview.png";
+import imageer from "../assets/greenbg.png";
 import Image from "next/image";
 
 const Work = () => {
