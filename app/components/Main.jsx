@@ -20,7 +20,7 @@ const Main = () => {
     <div id="main">
       <div className="w-full h-screen object-cover object-left  "></div>
       <div className="w-full h-screen absolute top-0 left-0  flex">
-        <div className="max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center">
+        <div className="max-w-[700px] m-auto  h-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             {texter.tx1}
           </h1>
@@ -56,7 +56,14 @@ const Main = () => {
               <FaTwitter size={30} className="cursor-pointer hover:scale-110" />
             </a>
           </div>
-          <button class=" bg-[#dcfce7] border-gray-300 border-4 rounded-lg mt-16 hover:bg-gray-400 text-gray-800 font-bold py-4 px-6  inline-flex items-center">
+          <button
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/uc?export=download&id=1XGhkC3V9X4nSkXDdU3OI7zVmcwr1p2xt"
+              )
+            }
+            className=" bg-[#dcfce7] border-gray-300 border-4 rounded-lg mt-16 hover:bg-gray-400 text-gray-800 font-bold py-4 px-6  inline-flex items-center"
+          >
             <svg
               class="fill-current w-4 h-4 mr-2"
               xmlns="http://www.w3.org/2000/svg"
