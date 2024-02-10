@@ -1,5 +1,5 @@
 import React from "react";
-import Skills from "./Skills";
+import Skills from "./Expriance";
 const WorkItem = ({ year, title, duration, details }) => {
   return (
     <div>
