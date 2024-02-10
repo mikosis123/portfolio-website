@@ -1,13 +1,14 @@
 import Lottie from "lottie-react";
 import React from "react";
-import animationdata from "../assets/Animation - 1707328679029.json";
+import animationdata from "../assets/Animation -lottie.json";
 
 const Contact = () => {
   return (
     <div
       id="contact"
-      className=" flex justify-around item-center bg-green-100  md:pl-20 py-16"
+      className=" flex justify-around item-center bg-[#97b2f4]  md:pl-20 py-16"
     >
+      <Lottie className="w-[300px]" animationData={animationdata} />
       <div>
         <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e] pb-10">
           Contact
@@ -75,7 +76,6 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <Lottie animationData={animationdata} />
     </div>
   );
 };
