@@ -16,7 +16,16 @@ const Resume = () => {
           <p className="flex justify-center text-sm">Click here to Download</p>
         </a>
         <div className="flex justify-center p-6">
-          <Button className="px-10" color="secondary" variant="ghost">
+          <Button
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/uc?export=download&id=1XGhkC3V9X4nSkXDdU3OI7zVmcwr1p2xt"
+              )
+            }
+            className="px-10"
+            color="secondary"
+            variant="ghost"
+          >
             Ghost
           </Button>
         </div>
