@@ -1,5 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { Iconmain } from "../assets/Iconmain";
+
 import Image from "next/image";
 import mikipic from "../assets/main illustration.png";
 import {
