@@ -26,7 +26,7 @@ const Resume = () => {
             color="secondary"
             variant="ghost"
           >
-            Ghost
+            Download my cv
           </Button>
         </div>
       </div>
