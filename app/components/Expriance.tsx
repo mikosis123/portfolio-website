@@ -3,25 +3,18 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    year: 2023,
-    title: "Full Stack || Front End Web Developer (MERN Stack)",
+    year: 2022,
+    title: "Full Stack || Front End Web Developer (freelancing)",
     duration: "2 Years",
     details:
-      'From the moment I produced "Hello World" in the console of my first application, I knew I was hooked into the world of software development. My specialities include quickly learning new skills and programming languages, problem solving, responsive design principles, website optimization,. So far I have HTML, CSS, Javascript, ReactJS, Typescript,Javascript,TailwindCSS, Bootstrap, Node.JS, Express.',
+      " As a dedicated junior full-stack developer in the realm of freelancing, I bring a dynamic and versatile skill set to the table. With a strong foundation in JavaScript,Reactjs/Nextjs, I have seamlessly navigated both front-end and back-end development challenges",
   },
   {
     year: 2023,
-    title: "Full Stack || Front End Web Developer (MERN Stack)",
-    duration: "2 Years",
+    title: " Front End Web Developer at Terakiapp Intern",
+    duration: "3 months",
     details:
-      'From the moment I produced "Hello World" in the console of my first application, ',
-  },
-  {
-    year: 2023,
-    title: "Full Stack || Front End Web Developer (MERN Stack)",
-    duration: "2 Years",
-    details:
-      'From the moment I produced "Hello World" in the console of my first application, ',
+      "At TerakiApp, I delved into the world of Next.js, mastering its capabilities to build robust and performant frontend solutions. Through hands-on projects and collaborative efforts, I deepened my understanding of React-based frameworks, enhancing my proficiency in crafting dynamic user interfaces. ",
   },
 ];
 
