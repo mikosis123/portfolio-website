@@ -10,10 +10,10 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8 font-normal text-stone-500">
-        A paragraph is a self-contained unit of discourse in writing dealing
-        with a particular point or idea. Though not required by the orthographic
-        conventions of any language with a writing system, paragraphs are a
-        conventional means of organizing extended segments of prose.
+        showcase of my expertise in web development through a diverse array of
+        projects. Dive into the realm of digital innovation as you explore
+        meticulously crafted web applications designed to show my skills on
+        development industry.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItems img={netflix} />
