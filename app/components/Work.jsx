@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="flex justify-center w-full bg-[#97b2f4] slant-bottom md:pl-20 p-4 py-16"
+      className="md:flex-row flex flex-col justify-center w-full bg-[#97b2f4] slant-bottom md:pl-20 p-4 py-16"
     >
       <div id="edu" className="m-auto md:pl-20 p-4 py-16 slant-bottom">
         <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-10">
@@ -27,7 +27,7 @@ const Work = () => {
         </h3>
       </div>
 
-      <Image height={400} width={400} src={imageer} />
+      <Image className="" height={400} width={400} src={imageer} />
     </div>
   );
 };
