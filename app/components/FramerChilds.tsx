@@ -23,7 +23,8 @@ const FramerChilds = ({ children }: Props) => {
       onMouseLeave={() => setPosition({ x: 0, y: 0 })}
       ref={ref}
       animate={{ x: position.x, y: position.y }} // Use animate prop to define animation properties
-      style={{ position: "relative" }} // Add necessary styling
+      style={{ position: "relative" }} // Add necessary styling, set width to 200px (you can adjust as needed)
+      className="max-w-[90%] m-auto overflow-y-hidden"
     >
       {children}
     </motion.div>
