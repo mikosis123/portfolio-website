@@ -20,7 +20,7 @@ const Main = () => {
   return (
     <div id="main">
       <div className="w-full h-screen object-cover object-left  "></div>
-      <div className="w-full h-screen absolute top-0 left-0  flex">
+      <div className="w-full h-screen absolute top-0 left-0  md:flex-row justify-center items-center flex flex-col">
         <div className="max-w-[700px] m-auto  h-full flex flex-col justify-center lg:items-start items-center">
           <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
             {texter.tx1}
@@ -82,7 +82,10 @@ const Main = () => {
             <span>Download Cv</span>
           </button>
         </div>
-        <Image className="h-[500px] my-auto mr-4 imageer" src={mikipic}></Image>
+        <Image
+          className="h-[500px] my-auto mr-4 hidden md:block imageer"
+          src={mikipic}
+        ></Image>
       </div>
     </div>
   );
