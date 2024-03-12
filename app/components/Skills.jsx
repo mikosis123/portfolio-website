@@ -32,77 +32,79 @@ const Skills = () => {
   }, [Xtransition, width]); // Include width in dependencies
 
   return (
-    <motion.div
-      className="flex justify-center item-center gap-8 item-between "
-      ref={ref}
-      style={{ x: Xtransition }}
-    >
-      <div className=" flex justify-center item-center gap-10">
-        <FramerChilds>
-          <NodeIcon />
-        </FramerChilds>
-        <FramerChilds>
-          <Reactlogo />
-        </FramerChilds>
-        <FramerChilds>
-          <Nexticon />
-        </FramerChilds>
-        <FramerChilds>
-          <Typescript />
-        </FramerChilds>
-        <FramerChilds>
-          <JavascriptIcon />
-        </FramerChilds>
-        <FramerChilds>
-          <Redux />
-        </FramerChilds>
-        <FramerChilds>
-          <Tailwind />
-        </FramerChilds>
-        <FramerChilds>
-          <NodeIcon />
-        </FramerChilds>
-        <FramerChilds>
-          <Reactlogo />
-        </FramerChilds>
-        <FramerChilds>
-          <Nexticon />
-        </FramerChilds>
-        <FramerChilds>
-          <Typescript />
-        </FramerChilds>
-        <FramerChilds>
-          <JavascriptIcon />
-        </FramerChilds>
-        <FramerChilds>
-          <Redux />
-        </FramerChilds>
-        <FramerChilds>
-          <Tailwind />
-        </FramerChilds>
-        <FramerChilds>
-          <NodeIcon />
-        </FramerChilds>
-        <FramerChilds>
-          <Reactlogo />
-        </FramerChilds>
-        <FramerChilds>
-          <Nexticon />
-        </FramerChilds>
-        <FramerChilds>
-          <Typescript />
-        </FramerChilds>
-        <FramerChilds>
-          <JavascriptIcon />
-        </FramerChilds>
-        <FramerChilds>
-          <Redux />
-        </FramerChilds>
-        <FramerChilds>
-          <Tailwind />
-        </FramerChilds>
-      </div>
-    </motion.div>
+    <div className="overflow-x-hidden h-[200px] mt-10">
+      <motion.div
+        className="flex justify-center item-center gap-8 item-between "
+        ref={ref}
+        style={{ x: Xtransition }}
+      >
+        <div className=" flex justify-center item-center gap-10">
+          <FramerChilds>
+            <NodeIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Reactlogo />
+          </FramerChilds>
+          <FramerChilds>
+            <Nexticon />
+          </FramerChilds>
+          <FramerChilds>
+            <Typescript />
+          </FramerChilds>
+          <FramerChilds>
+            <JavascriptIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Redux />
+          </FramerChilds>
+          <FramerChilds>
+            <Tailwind />
+          </FramerChilds>
+          <FramerChilds>
+            <NodeIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Reactlogo />
+          </FramerChilds>
+          <FramerChilds>
+            <Nexticon />
+          </FramerChilds>
+          <FramerChilds>
+            <Typescript />
+          </FramerChilds>
+          <FramerChilds>
+            <JavascriptIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Redux />
+          </FramerChilds>
+          <FramerChilds>
+            <Tailwind />
+          </FramerChilds>
+          <FramerChilds>
+            <NodeIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Reactlogo />
+          </FramerChilds>
+          <FramerChilds>
+            <Nexticon />
+          </FramerChilds>
+          <FramerChilds>
+            <Typescript />
+          </FramerChilds>
+          <FramerChilds>
+            <JavascriptIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Redux />
+          </FramerChilds>
+          <FramerChilds>
+            <Tailwind />
+          </FramerChilds>
+        </div>
+      </motion.div>
+    </div>
   );
 };
 
