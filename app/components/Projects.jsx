@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectItems from "./ProjectItems";
-import netflix from "../assets/netflix.png";
+import musicapp from "../assets/music app.png";
+import netflixe from "../assets/netflix.png";
+import tweeterclone from "../assets/tweeterclone.jpg";
 import apple from "../assets/apple replica image.jpeg";
 
 const Projects = () => {
@@ -16,10 +18,12 @@ const Projects = () => {
         development industry.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItems img={netflix} />
+        <ProjectItems img={musicapp} discription={""} />
+        <ProjectItems img={tweeterclone} />
         <ProjectItems img={apple} />
+        <ProjectItems img={netflixe} />
         <ProjectItems img={apple} />
-        <ProjectItems img={netflix} />
+        <ProjectItems img={netflixe} />
       </div>
     </div>
   );
