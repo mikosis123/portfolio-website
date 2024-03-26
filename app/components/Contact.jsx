@@ -6,10 +6,13 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className=" flex justify-around item-center bg-[#97b2f4]  md:pl-20 py-16"
+      className=" flex flex-col md:flex-row md:justify-around item-center bg-[#97b2f4]  md:pl-20 py-16"
     >
-      <Lottie className="w-[300px]" animationData={animationdata} />
-      <div>
+      <Lottie
+        className=" flex sm:mx-auto md:mx-10 w-[300px]"
+        animationData={animationdata}
+      />
+      <div className="md:w-[60%]">
         <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e] pb-10">
           Contact
         </h1>
@@ -19,7 +22,7 @@ const Contact = () => {
           encType="multipart/form-data"
         >
           <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-            <div className="flex flex-col">
+            <div className="flex flex-col ">
               <label className="uppercase text-sm py-2" htmlFor="">
                 Name
               </label>
