@@ -3,18 +3,11 @@ import { Iconmain } from "../assets/Iconmain";
 
 import Image from "next/image";
 import mikipic from "../assets/main illustration.png";
-import {
-  FaInstagram,
-  FaTwitter,
-  FaFacebookF,
-  FaLinkedin,
-  FaGithub,
-  FaTelegram,
-} from "react-icons/fa";
+import { FaTwitter, FaLinkedin, FaGithub, FaTelegram } from "react-icons/fa";
 
 const Main = () => {
   const texter = {
-    tx1: "I'm Mikiyas Sisay",
+    tx1: "I am Mikiyas Sisay",
     tx2: "I am ",
   };
   return (
