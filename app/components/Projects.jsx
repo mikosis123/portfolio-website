@@ -18,12 +18,48 @@ const Projects = () => {
         development industry.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
-        <ProjectItems img={musicapp} discription={""} />
-        <ProjectItems img={tweeterclone} />
-        <ProjectItems img={apple} />
-        <ProjectItems img={netflixe} />
-        <ProjectItems img={apple} />
-        <ProjectItems img={netflixe} />
+        <ProjectItems
+          img={musicapp}
+          discription="showcase of my expertise in web development through a diverse array of
+        projects. Dive into the realm of digital innovation as you explore
+        meticulously crafted web applications designed to show my skills on
+        development industry."
+        />
+        <ProjectItems
+          img={tweeterclone}
+          discription="showcase of my expertise in web development through a diverse array of
+        projects. Dive into the realm of digital innovation as you explore
+        meticulously crafted web applications designed to show my skills on
+        development industry."
+        />
+        <ProjectItems
+          img={apple}
+          discription="showcase of my expertise in web development through a diverse array of
+        projects. Dive into the realm of digital innovation as you explore
+        meticulously crafted web applications designed to show my skills on
+        development industry."
+        />
+        <ProjectItems
+          img={netflixe}
+          discription="showcase of my expertise in web development through a diverse array of
+        projects. Dive into the realm of digital innovation as you explore
+        meticulously crafted web applications designed to show my skills on
+        development industry."
+        />
+        <ProjectItems
+          img={apple}
+          discription="showcase of my expertise in web development through a diverse array of
+        projects. Dive into the realm of digital innovation as you explore
+        meticulously crafted web applications designed to show my skills on
+        development industry."
+        />
+        <ProjectItems
+          img={netflixe}
+          discription="showcase of my expertise in web development through a diverse array of
+        projects. Dive into the realm of digital innovation as you explore
+        meticulously crafted web applications designed to show my skills on
+        development industry."
+        />
       </div>
     </div>
   );
