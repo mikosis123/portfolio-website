@@ -20,7 +20,7 @@ const Skills = () => {
     const finalPosition = width / 2 - 8; // Access width from useMeasure
     control = animate(Xtransition, [0, finalPosition], {
       ease: "linear",
-      duration: 30,
+      duration: 10,
       repeat: Infinity,
       repeatType: "loop",
       repeatDelay: 0,
