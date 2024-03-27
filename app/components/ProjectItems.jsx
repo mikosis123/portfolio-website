@@ -12,7 +12,7 @@ const ProjectItems = ({
 }) => {
   return (
     <div>
-      <div className="card z-10">
+      <div className="card z-10 sm:h-[250px] sm:w-[250px] md:h-[350px] md:w-[350px]">
         <Image
           className="h-[350px] w-[350px] object-cover"
           height={350}

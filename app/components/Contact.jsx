@@ -21,7 +21,7 @@ const Contact = () => {
           method="POST"
           encType="multipart/form-data"
         >
-          <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+          <div className="grid md:grid-cols-2 gap-4 w-[80%] mx-auto py-2">
             <div className="flex flex-col ">
               <label className="uppercase text-sm py-2" htmlFor="">
                 Name
