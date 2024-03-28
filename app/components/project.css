@@ -4,11 +4,6 @@
   inherits: false;
 }
 
-:root {
-  --card-height: 350px;
-  --card-width: calc(var(--card-height));
-}
-
 .card {
   background: #191c29;
   width: var(--card-width);
