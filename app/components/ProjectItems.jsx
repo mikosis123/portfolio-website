@@ -12,11 +12,11 @@ const ProjectItems = ({
 }) => {
   return (
     <div>
-      <div className="card z-10 sm:h-[200px] sm:w-[200px] md:h-[350px] md:w-[350px]">
+      <div className="card mx-auto z-10 sm:h-[300px] sm:w-[300px] md:h-[350px] md:w-[350px]">
         <Image
-          className="sm:h-[200px] sm:w-[200px] h-[350px] w-[350px] object-cover"
-          height={350}
-          width={350}
+          className="sm:h-[300px] sm:w-[300px] md:h-[350px] md:w-[350px] object-cover"
+          height={270}
+          width={270}
           src={img}
         ></Image>
         <div className="card-content">{title}</div>

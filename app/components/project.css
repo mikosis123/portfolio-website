@@ -4,6 +4,11 @@
   inherits: false;
 }
 
+:root {
+  --card-height: 350px;
+  --card-width: calc(var(--card-height));
+}
+
 .card {
   background: #191c29;
   width: var(--card-width);
@@ -81,7 +86,12 @@
     --rotate: 360deg;
   }
 }
-
+@media screen and (max-width: 800px) {
+  .card {
+    width: 250px;
+    height: 250px;
+  }
+}
 a {
   color: #212534;
   text-decoration: none;
