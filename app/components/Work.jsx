@@ -27,7 +27,13 @@ const Work = () => {
         </h3>
       </div>
 
-      <Image className="" height={400} width={400} src={imageer} />
+      <Image
+        className="mx-auto"
+        alt="learners"
+        height={400}
+        width={400}
+        src={imageer}
+      />
     </div>
   );
 };
