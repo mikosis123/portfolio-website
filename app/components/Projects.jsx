@@ -27,6 +27,12 @@ const Projects = () => {
           description="Song app where you can perform CRUD operations on any song on the frontend. I use Next.js and Tailwind CSS, along with Redux Toolkit for state management, and for the backend, Node.js with MongoDB database and Cloudinary for cloud storage."
         />
         <ProjectItems
+          img={netflixe}
+          liveSiteLink={"https://netflix-clone1-f593e.web.app/"}
+          githubLink={"https://github.com/mikosis123/Netflix-clone"}
+          description=" a Netflix clone showcasing the latest movies sourced from a movie database API, using React.js."
+        />
+        <ProjectItems
           img={tweeterclone}
           liveSiteLink={"https://twitter-clone-sooty-alpha.vercel.app/"}
           githubLink={"https://github.com/mikosis123/Twitter-clone"}
@@ -38,12 +44,7 @@ const Projects = () => {
           githubLink={"https://github.com/mikosis123/Apple-website-with-react"}
           description="Apple replica website built from scratch using React"
         />
-        <ProjectItems
-          img={netflixe}
-          liveSiteLink={"https://netflix-clone1-f593e.web.app/"}
-          githubLink={"https://github.com/mikosis123/Netflix-clone"}
-          description=" a Netflix clone showcasing the latest movies sourced from a movie database API, using React.js."
-        />
+
         <ProjectItems
           img={countdown}
           liveSiteLink={"https://gilded-strudel-b296e3.netlify.app/"}
