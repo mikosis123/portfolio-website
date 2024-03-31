@@ -47,7 +47,7 @@ const Projects = () => {
 
         <ProjectItems
           img={countdown}
-          liveSiteLink={"https://gilded-strudel-b296e3.netlify.app/"}
+          liveSiteLink={"https://25-clock-snowy.vercel.app/"}
           githubLink={"https://github.com/mikosis123/25-clock"}
           description=" Simple countdown timer set for a given duration of time, and implement an alarm using Vanilla JavaScript for a FreeCodeCamp project"
         />
