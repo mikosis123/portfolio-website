@@ -17,7 +17,7 @@ const Contact = () => {
           Contact
         </h1>
         <form
-          action="https://getform.io/f/47170812-96af-4aee-8288-01aad0d3fb77"
+          action="https://getform.io/f/lakmnyja"
           method="POST"
           encType="multipart/form-data"
         >
