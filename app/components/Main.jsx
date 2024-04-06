@@ -44,7 +44,7 @@ const Main = () => {
               />
             </a>
 
-            <a href="https://instagram.com/praneet_084?igshid=OGQ5ZDc2ODk2ZA==">
+            <a href="https://github.com/mikosis123">
               <FaGithub size={30} className="cursor-pointer hover:scale-110" />
             </a>
             <a href="https://t.me/Mikiyas_sisay">
@@ -53,7 +53,7 @@ const Main = () => {
                 className="cursor-pointer hover:scale-110"
               />
             </a>
-            <a href="https://x.com/praneet_K10?t=EqWgLxa43bT1Sx3ntllLVw&s=09">
+            <a href="https://twitter.com/Miko_sis">
               <FaTwitter size={30} className="cursor-pointer hover:scale-110" />
             </a>
           </div>
