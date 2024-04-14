@@ -21,6 +21,12 @@ const Projects = () => {
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItems
+          img={tweeterclone}
+          liveSiteLink={"https://courageous-lily-4450c0.netlify.app/"}
+          githubLink={"https://github.com/mikosis123/Twitter-clone"}
+          description=" Twitter-like social media clone using Next.js, Tailwind CSS, and Firebase, where users can post, comment, like, and delete posts."
+        />
+        <ProjectItems
           img={musicapp}
           liveSiteLink={"https://song-app-psi.vercel.app/"}
           githubLink={"https://github.com/mikosis123/Song-App"}
@@ -32,12 +38,7 @@ const Projects = () => {
           githubLink={"https://github.com/mikosis123/Netflix-clone"}
           description=" a Netflix clone showcasing the latest movies sourced from a movie database API, using React.js."
         />
-        <ProjectItems
-          img={tweeterclone}
-          liveSiteLink={"https://twitter-clone-sooty-alpha.vercel.app/"}
-          githubLink={"https://github.com/mikosis123/Twitter-clone"}
-          description=" Twitter-like social media clone using Next.js, Tailwind CSS, and Firebase, where users can post, comment, like, and delete posts."
-        />
+
         <ProjectItems
           img={apple}
           liveSiteLink={"https://apple-website-with-react.vercel.app/"}

@@ -14,7 +14,7 @@ const Contact = () => {
       />
       <div className="md:w-[60%]">
         <h1 className="py-4 text-4xl font-bold text-center text-[#001b5e] pb-10">
-          Contact
+          Contact Me
         </h1>
         <form
           action="https://getform.io/f/lakmnyja"

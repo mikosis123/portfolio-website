@@ -60,7 +60,7 @@ const Main = () => {
           <button
             onClick={() =>
               window.open(
-                "https://drive.google.com/uc?export=download&id=1XGhkC3V9X4nSkXDdU3OI7zVmcwr1p2xt"
+                "https://docs.google.com/document/d/1Unp2R1nAlL-aRiL-QNtqIfcQyodzifCyyjhg8DexCtA/edit?usp=sharing"
               )
             }
             className=" bg-[#dcfce7] border-gray-300 border-4 rounded-lg mt-16 hover:bg-gray-400 text-gray-800 font-bold py-4 px-6  inline-flex items-center"
@@ -72,7 +72,7 @@ const Main = () => {
             >
               <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
             </svg>
-            <span>Download My Cv</span>
+            <span>Checkout My Cv</span>
           </button>
         </div>
         <Image
