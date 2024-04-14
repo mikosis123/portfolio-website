@@ -14,7 +14,7 @@ const Work = () => {
           About me
         </h1>
         <h3>
-          &quot;From the instant I typed 'Hello World' into my console, I was
+          &quot;From the instant I typed Hello World into my console, I was
           hooked on software development. Originally trained as a mechanical
           engineer, I pivoted to full stack development, driven by my
           fascination with building and optimizing digital solutions. I excel at
