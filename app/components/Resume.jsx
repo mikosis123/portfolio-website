@@ -19,7 +19,7 @@ const Resume = () => {
           <Button
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/16EmlhEMR2YDUaQ-4PhuzrLDPs-sw4c5W/view?usp=sharing"
+                "https://drive.google.com/file/d/1uz3XF9P13rAkS40RQpHPfCbOTYnSGLGp/view?usp=sharing"
               )
             }
             className="px-10"
