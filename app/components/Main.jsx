@@ -24,9 +24,9 @@ const Main = () => {
               sequence={[
                 "Front-end Developer",
                 1500,
-                "Back-end developer",
+                "Smart-contract Developer",
                 1500,
-                "Full-stack Developer",
+                "Full-stack Dapp Developer",
                 1500,
               ]}
               wrapper="span"
