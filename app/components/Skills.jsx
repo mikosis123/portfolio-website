@@ -9,6 +9,7 @@ import Typescript from "../assets/skillsIcon/Typescript";
 import FramerChilds from "./FramerChilds";
 import { animate, motion, useMotionValue } from "framer-motion";
 import { useMeasure } from "react-use";
+import Solidity from "../assets/skillsIcon/Solidity";
 
 const Skills = () => {
   const [ref, { width }] = useMeasure(); // Specify type for ref and destructure width
@@ -43,25 +44,7 @@ const Skills = () => {
             <NodeIcon />
           </FramerChilds>
           <FramerChilds>
-            <Reactlogo />
-          </FramerChilds>
-          <FramerChilds>
-            <Nexticon />
-          </FramerChilds>
-          <FramerChilds>
-            <Typescript />
-          </FramerChilds>
-          <FramerChilds>
-            <JavascriptIcon />
-          </FramerChilds>
-          <FramerChilds>
-            <Redux />
-          </FramerChilds>
-          <FramerChilds>
-            <Tailwind />
-          </FramerChilds>
-          <FramerChilds>
-            <NodeIcon />
+            <Solidity />
           </FramerChilds>
           <FramerChilds>
             <Reactlogo />
@@ -83,6 +66,33 @@ const Skills = () => {
           </FramerChilds>
           <FramerChilds>
             <NodeIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Solidity />
+          </FramerChilds>
+          <FramerChilds>
+            <Reactlogo />
+          </FramerChilds>
+          <FramerChilds>
+            <Nexticon />
+          </FramerChilds>
+          <FramerChilds>
+            <Typescript />
+          </FramerChilds>
+          <FramerChilds>
+            <JavascriptIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Redux />
+          </FramerChilds>
+          <FramerChilds>
+            <Tailwind />
+          </FramerChilds>
+          <FramerChilds>
+            <NodeIcon />
+          </FramerChilds>
+          <FramerChilds>
+            <Solidity />
           </FramerChilds>
           <FramerChilds>
             <Reactlogo />

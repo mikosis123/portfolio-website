@@ -19,7 +19,7 @@ const ProjectItems = ({
           width={350}
           src={img}
         ></Image>
-        <div className="card-content">{title}</div>
+
         <div className="absolute inset-0  flex flex-col items-center justify-center bg-black bg-opacity-50 transition-opacity opacity-0 hover:opacity-100">
           <p className="text-center text-white p-4 text-sm">{description}</p>
           <div className="flex gap-4 mt-24">
