@@ -14,19 +14,19 @@ const Work = () => {
           About me
         </h1>
         <h3>
-          &quot;From the moment I typed 'Hello World' into my console, I was
-          captivated by software development. With a background in mechanical
-          engineering, I transitioned into full-stack development, driven by my
-          passion for creating and optimizing digital solutions. I am proficient
-          in HTML, CSS, JavaScript, ReactJS, NextJS, TypeScript, TailwindCSS,
-          Bootstrap, Node.js, and Express, and I have recently expanded my skill
-          set to include Solidity programming, smart contract development, and
-          DApp creation. My expertise in Git for version control, RESTful API
-          design, and with minor database management with MySQL and MongoDB
-          ensures robust data handling and seamless collaboration in development
-          environments. I thrive on learning new technologies and solving
-          complex problems, always striving for excellence in every
-          project&quot;
+          &quot;From the moment I typed &apos;Hello World&apos; into my console,
+          I was captivated by software development. With a background in
+          mechanical engineering, I transitioned into full-stack development,
+          driven by my passion for creating and optimizing digital solutions. I
+          am proficient in HTML, CSS, JavaScript, ReactJS, NextJS, TypeScript,
+          TailwindCSS, Bootstrap, Node.js, and Express, and I have recently
+          expanded my skill set to include Solidity programming, smart contract
+          development, and DApp creation. My expertise in Git for version
+          control, RESTful API design, and with minor database management with
+          MySQL and MongoDB ensures robust data handling and seamless
+          collaboration in development environments. I thrive on learning new
+          technologies and solving complex problems, always striving for
+          excellence in every project&quot;
         </h3>
       </div>
 

@@ -7,6 +7,7 @@ import calculater from "../assets/Screenshot 2023-12-23 042216.png";
 import tweeterclone from "../assets/tweeterclone.jpg";
 import apple from "../assets/apple replica image.jpeg";
 import voting from "../assets/votingimage.webp";
+import { Button } from "@nextui-org/react";
 
 const Projects = () => {
   const [web2pro, setWeb2pro] = useState(false);
@@ -121,6 +122,31 @@ const Projects = () => {
               githubLink={"https://github.com/mikosis123/VOTING-APP"}
               description=" This is a Web3 app that enables voting on public proposals, developed from smart contract creation to UI integration using Next.js and the Thirdweb SDK"
             />
+            <div>
+              <p>
+                This is a Web3 app that enables voting on public proposals,
+                developed from smart contract creation to UI integration using
+                Next.js and the Thirdweb SDK
+              </p>
+              <div className="flex gap-4 mt-24">
+                <Button
+                  color="secondary"
+                  onClick={() =>
+                    window.open("https://voting-app-five-eta.vercel.app/")
+                  }
+                >
+                  Live Site
+                </Button>
+                <Button
+                  color="secondary"
+                  onClick={() =>
+                    window.open("https://github.com/mikosis123/VOTING-APP")
+                  }
+                >
+                  GitHub Code
+                </Button>
+              </div>
+            </div>
           </div>
         )}
       </div>
