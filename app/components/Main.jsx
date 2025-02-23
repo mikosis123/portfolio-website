@@ -22,7 +22,7 @@ const Main = () => {
             {texter.tx2}
             <TypeAnimation
               sequence={[
-                "Front-end Developer",
+                "Front-end React/Next Developer",
                 1500,
                 "Smart-contract Developer",
                 1500,

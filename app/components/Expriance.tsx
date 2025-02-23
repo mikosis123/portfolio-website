@@ -3,14 +3,15 @@ import WorkItem from "./WorkItem";
 
 const data = [
   {
-    year: 2022,
-    title: "Full Stack || Front End Web Developer (freelancing)",
+    year: 2023,
+    title:
+      "Full Stack Web 2 and Web 3  Front End Web || Smart-Contract Developer (freelancing)",
     duration: "2 Years",
     details:
-      " As a dedicated junior full-stack developer in the realm of freelancing, I bring a dynamic and versatile skill set to the table. With a strong foundation in JavaScript,Reactjs/Nextjs, I have seamlessly navigated both front-end and back-end development challenges",
+      " Passionate junior full-stack developer specializing in Web3 and DApp development, with expertise in Solidity, ReactJS, NextJS, and Node.js. I build secure smart contracts, scalable decentralized applications",
   },
   {
-    year: 2023,
+    year: 2022,
     title: " Front End Web Developer at Terakiapp Intern",
     duration: "3 months",
     details:
