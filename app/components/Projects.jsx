@@ -36,8 +36,8 @@ const Projects = () => {
           }}
           className={
             !web2pro
-              ? ` inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 ring-2 ring-gray-500 bg-gray-900 text-white`
-              : `inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg `
+              ? ` inline-flex items-center px-4 py-2 text-sm font-medium  border  rounded-s-lg bg-gray-900 text-white  `
+              : `inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg hover:bg-gray-900 hover:text-white `
           }
         >
           <svg
@@ -59,8 +59,8 @@ const Projects = () => {
           }}
           className={
             web2pro
-              ? ` inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 ring-2 ring-gray-500 bg-gray-900 text-white`
-              : `inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg `
+              ? ` inline-flex items-center px-4 py-2 text-sm font-medium  border  rounded-s-lg bg-gray-900 text-white  `
+              : `inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg hover:bg-gray-900 hover:text-white `
           }
         >
           <svg
