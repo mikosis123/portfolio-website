@@ -8,6 +8,7 @@ import tweeterclone from "../assets/tweeterclone.jpg";
 import apple from "../assets/apple replica image.jpeg";
 import voting from "../assets/votingimage.webp";
 import { Button } from "@nextui-org/react";
+import Link from "next/link";
 
 const Projects = () => {
   const [web2pro, setWeb2pro] = useState(false);
@@ -33,17 +34,21 @@ const Projects = () => {
           onClick={() => {
             setWeb2pro(false);
           }}
-          className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+          className={
+            !web2pro
+              ? ` inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 ring-2 ring-gray-500 bg-gray-900 text-white`
+              : `inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg `
+          }
         >
-          {/* <svg
+          <svg
             className="w-3 h-3 me-2"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            viewBox="0 0 20 20"
+            viewBox="0 0 24 24"
           >
-            <path d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
-          </svg> */}
+            <path d="M12 2a10 10 0 1 0 10 10A10.011 10.011 0 0 0 12 2Zm7.93 9h-3.95a16.086 16.086 0 0 0-1.66-6.13 8.02 8.02 0 0 1 5.61 6.13ZM12 4a14.11 14.11 0 0 1 2 6h-4a14.11 14.11 0 0 1 2-6ZM4.07 11a8.02 8.02 0 0 1 5.61-6.13A16.086 16.086 0 0 0 8.02 11H4.07Zm0 2h3.95a16.086 16.086 0 0 0 1.66 6.13A8.02 8.02 0 0 1 4.07 13Zm7.93 7a14.11 14.11 0 0 1-2-6h4a14.11 14.11 0 0 1-2 6Zm2.32-.87a16.086 16.086 0 0 0 1.66-6.13h3.95a8.02 8.02 0 0 1-5.61 6.13Z" />
+          </svg>
           Web 2 projects
         </button>
 
@@ -52,18 +57,21 @@ const Projects = () => {
           onClick={() => {
             setWeb2pro(true);
           }}
-          className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700"
+          className={
+            web2pro
+              ? ` inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 ring-2 ring-gray-500 bg-gray-900 text-white`
+              : `inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg `
+          }
         >
-          {/* <svg
+          <svg
             className="w-3 h-3 me-2"
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
-            viewBox="0 0 20 20"
+            viewBox="0 0 24 24"
           >
-            <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
-            <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
-          </svg> */}
+            <path d="M12 0L4 6l8 6 8-6-8-6zm0 24l8-6-8-6-8 6 8 6zm0-8.5l6-4.5-6-4.5-6 4.5 6 4.5z" />
+          </svg>
           Web 3 projects
         </button>
       </div>
@@ -145,6 +153,53 @@ const Projects = () => {
                 >
                   GitHub Code
                 </Button>
+              </div>
+            </div>
+            <div className="flex">
+              <div className="space-y-2">
+                <Link
+                  href="https://github.com/mikosis123/NFT-Foundry"
+                  className="flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100 border border-gray-300 rounded-lg hover:bg-gray-200 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M12 .297C5.373.297 0 5.67 0 12.297c0 5.29 3.438 9.8 8.207 11.387.6.11.793-.26.793-.577v-2.17c-3.338.727-4.033-1.61-4.033-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.746.083-.73.083-.73 1.206.085 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.49.997.108-.774.42-1.305.763-1.605-2.665-.305-5.467-1.332-5.467-5.93 0-1.31.467-2.38 1.237-3.22-.124-.303-.536-1.522.116-3.17 0 0 1.01-.323 3.31 1.23a11.5 11.5 0 0 1 3.02-.405c1.02.006 2.05.138 3.02.405 2.3-1.553 3.31-1.23 3.31-1.23.652 1.648.24 2.867.116 3.17.77.84 1.237 1.91 1.237 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.82 1.096.82 2.21v3.293c0 .32.19.694.8.576C20.57 22.09 24 17.58 24 12.296 24 5.67 18.627.297 12 .297z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Foundry Fund-Me Project
+                </Link>
+
+                <Link
+                  href="https://github.com/mikosis123/foundry-FundME"
+                  className="flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-gray-100 border border-gray-300 rounded-lg hover:bg-gray-200 transition"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    className="w-5 h-5 mr-2"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M12 .297C5.373.297 0 5.67 0 12.297c0 5.29 3.438 9.8 8.207 11.387.6.11.793-.26.793-.577v-2.17c-3.338.727-4.033-1.61-4.033-1.61-.546-1.387-1.333-1.756-1.333-1.756-1.09-.746.083-.73.083-.73 1.206.085 1.84 1.237 1.84 1.237 1.07 1.835 2.807 1.305 3.49.997.108-.774.42-1.305.763-1.605-2.665-.305-5.467-1.332-5.467-5.93 0-1.31.467-2.38 1.237-3.22-.124-.303-.536-1.522.116-3.17 0 0 1.01-.323 3.31 1.23a11.5 11.5 0 0 1 3.02-.405c1.02.006 2.05.138 3.02.405 2.3-1.553 3.31-1.23 3.31-1.23.652 1.648.24 2.867.116 3.17.77.84 1.237 1.91 1.237 3.22 0 4.61-2.807 5.625-5.48 5.92.43.37.82 1.096.82 2.21v3.293c0 .32.19.694.8.576C20.57 22.09 24 17.58 24 12.296 24 5.67 18.627.297 12 .297z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Foundry NFT-Minter Project
+                </Link>
               </div>
             </div>
           </div>
